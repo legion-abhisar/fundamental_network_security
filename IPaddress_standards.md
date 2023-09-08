@@ -16,6 +16,7 @@ The TCP/IP model is made up of four distinct layers. Each layer uses a different
 -  **Application layer**: The application layer is responsible for determining which communication protocols are used. This layer includes Hypertext Transfer Protocol (HTTP), DNS, File Transfer Protocol (FTP), Internet Message Access Protocol (IMAP), Lightweight Directory Access Protocol (LDAP), Post Office Protocol (POP), Simple Mail Transfer Protocol (SMTP), Simple Network Management Protocol (SNMP), Secure Shell (SSH), Telnet and TLS/SSL.
 -  **Transport layer**: This layer splits the application data into manageable ordered chunks by using the right port for the application protocol that's used. The protocols associated with this layer are TCP and the User Datagram Protocol (UDP).
 -  **Internet layer**: Also called the network layer, this layer ensures the data packet gets to its destination. The protocols associated with this layer are IP, IPv4, IPv6, Internet Control Message Protocol (ICMP) and Internet Protocol Security (IPsec).
+-  **Network access layer**: This layer is responsible for defining how the data is sent across the network. The protocol associated with this layer are ARP, MAC, Ethernet, digital subscriber line (DSL) and Integrated Services Digital Network (ISDN).
 
 
 
